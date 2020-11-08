@@ -112,7 +112,7 @@ const Projects = () => {
                 </div>
                 <div className="row">
                     <div className="col text-center btn-row">
-                        <a href="https://github.com/est271/est271.github.io" className="btn btn-primary">GitHub Code</a>
+                        <a href="https://github.com/est271/ef-portfolio-react" className="btn btn-primary">GitHub Code</a>
                         <button type="button" className="btn btn-info" data-placement="top"
                                 data-container="#projLink" data-toggle="popover" data-html="true"
                                 title="Skills Used on My Portfolio" data-content={popovr4} >
