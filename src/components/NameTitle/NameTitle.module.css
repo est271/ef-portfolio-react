@@ -1,0 +1,42 @@
+.NameTitle {
+    position: fixed;
+    width: 100%;
+    top: 60px;
+    z-index: -1;
+}
+
+.ImgBackground {
+    width: 100%;
+}
+
+.Name {
+    position: absolute;
+    top: 16%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font: 700 60px sans-serif;
+    text-shadow: 1px 1px 2px black, yellow 1px 0 30px;
+}
+
+.Name2 {
+    font-weight: bold;
+}
+
+.Title {
+    font: 700 80% sans-serif;
+}
+
+/*    when the screen is less than 400px apply these attr.   */
+@media ( max-width: 400px) {
+    .Name{
+        font: 700 28px sans-serif;
+    }
+}
+
+/*    when the screen is greater than 400px and less than 700px apply these attr. */
+@media ( min-width: 401px) and (max-width: 700px) {
+    .Name{
+        font: 700 45px sans-serif;
+    }
+}

@@ -1,0 +1,35 @@
+.Modal {
+    position: fixed;
+    z-index: 500;
+    width: 70%;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    color: black;
+}
+
+.ModalShow {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.ModalHide {
+    transform: translateY(-100vh);
+    opacity: 0;
+}
+
+.HeaderOk {
+    background-color: #3fff007a;
+}
+
+.HeaderErr {
+    background-color: red;
+}
+
+@media (min-width: 600px) {
+    .Modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}

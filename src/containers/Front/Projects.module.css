@@ -1,0 +1,38 @@
+.ProjectsContainer{
+    margin: 930px auto 100px;
+    position: relative;
+    background-color: black;
+    border: 6px solid #008068;
+}
+
+.ProjectTitle {
+    margin: 95px auto 70px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font: 700 50px sans-serif;
+    text-shadow: 1px 1px 2px black, yellow 1px 0 30px;
+}
+
+.ProjName {
+    margin-top: 10%;
+}
+
+.ProjImg {
+    max-width: 100%;
+    border-radius: .25rem;
+}
+
+/*    when the screen is less than 600px apply these attr.   */
+@media ( max-width: 600px) {
+    .ProjectsContainer{
+        margin: 600px auto 100px;
+    }
+}
+
+/*    when the screen is greater than 600px apply and less than 700px  */
+@media ( min-width: 800px) {
+    .ProjectsContainer{
+        margin: 800px auto 100px;
+    }
+}
