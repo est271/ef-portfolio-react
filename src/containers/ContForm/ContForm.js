@@ -27,7 +27,7 @@ class AboutForm extends Component {
             ...this.state.formData
         };
 
-        fetch('https://port-messages-be0d5.firebaseio.com/messages.json', {
+        fetch('ENTER YOUR DATABASE API KEY HERE', {
             method: 'POST',
             body: JSON.stringify(data),
             headers: { 'Content-Type': 'application/json' }
