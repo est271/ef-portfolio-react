@@ -1,12 +1,12 @@
 .Myform {
     text-align: left;
-    box-shadow: 0 2px 3px #ccc;
-    border: 2px solid white;
+    box-shadow: 0 .15rem .2rem #ccc;
+    border: .15rem solid white;
     padding: 2%;
     margin-bottom: 5%;
-    border-radius: 15px;
+    border-radius: 1rem;
 }
 
 .Topmrgn{
-    padding-top: 70px;
+    padding-top: 4.4rem;
 }

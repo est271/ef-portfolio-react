@@ -1,0 +1,14 @@
+.BotnavImg {
+    height: 2.5rem;
+    padding: .3rem .3rem .3rem .3rem;
+    border-radius: .3rem;
+}
+
+.BotnavImg:hover {
+    background-color: #ffc1077a;
+}
+
+.CopyStyle {
+    margin-right: 2.5rem;
+    color: black;
+}

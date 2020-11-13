@@ -1,7 +1,7 @@
 .NameTitle {
     position: fixed;
     width: 100%;
-    top: 60px;
+    top: 3.8rem;
     z-index: -1;
 }
 
@@ -15,28 +15,42 @@
     width: 100%;
     text-align: center;
     color: white;
-    font: 700 60px sans-serif;
     text-shadow: 1px 1px 2px black, yellow 1px 0 30px;
 }
 
 .Name2 {
     font-weight: bold;
+    font: 700 100% sans-serif;
 }
 
 .Title {
-    font: 700 80% sans-serif;
+    font: 700 70% sans-serif;
 }
 
 /*    when the screen is less than 400px apply these attr.   */
-@media ( max-width: 400px) {
+@media ( max-width: 25.00em) {
     .Name{
-        font: 700 28px sans-serif;
+        font: 700 2.19em sans-serif;
     }
 }
 
-/*    when the screen is greater than 400px and less than 700px apply these attr. */
-@media ( min-width: 401px) and (max-width: 700px) {
+/*    when the screen is greater than 400px and less than 700px */
+@media ( min-width: 25.01em) and (max-width: 43.75em) {
     .Name{
-        font: 700 45px sans-serif;
+        font: 700 2.81em sans-serif;
+    }
+}
+
+/*    when the screen is greater than 700 and less than 1000px*/
+@media ( min-width: 43.76em) and (max-width: 62.50em) {
+    .Name{
+        font: 700 4.06em sans-serif;
+    }
+}
+
+/*    when the screen is greater than 1000 */
+@media ( min-width: 62.51em) {
+    .Name{
+        font: 700 5.31em sans-serif;
     }
 }

@@ -76,7 +76,7 @@ class AboutForm extends Component {
                             type="text" 
                             className="form-control" 
                             id="nameInput" 
-                            placeholder="John Doh" 
+                            placeholder="First Last" 
                             value={this.state.formName}
                             onChange={ (event) => this.updateFormHandler(event)}
                             required />

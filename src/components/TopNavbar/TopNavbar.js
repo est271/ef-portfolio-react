@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import classes from './TopNavbar.module.css';
+
 import favicon from '../../assets/images/favicon.png';
 
 const topnavbar = props => {
@@ -10,7 +12,7 @@ const topnavbar = props => {
         <header>
             <nav className={topClasses.join(' ')}>
                 <a className="navbar-brand" href="https://github.com/est271">
-                    <img className="custom-img2" src={favicon} alt="..." />
+                    <img className={classes.TopnavImg} src={favicon} alt="..." />
                 </a>
                 <div className="navbar-nav flex-row ml-auto">
                     <NavLink className="nav-link" to="/" exact >Home</NavLink>

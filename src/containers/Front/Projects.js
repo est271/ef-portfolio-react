@@ -31,7 +31,7 @@ const Projects = () => {
             <div id="projLink"></div>
             <h2 className={classes.ProjectTitle}>Projects</h2>
 
-            <div className="container">
+            <div className="container proj-clr">
                 <div className="row">
                     <div className="col-5">
                         <h4 className={classes.ProjName}>Tic-Tac-Toe</h4>
@@ -54,7 +54,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="container">
+            <div className="container proj-clr">
                 <div className="row">
                     <div className="col-5">
                         <h4 className={classes.ProjName}>Geomstats</h4>
@@ -77,7 +77,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="container">
+            <div className="container proj-clr">
                 <div className="row">
                     <div className="col-5">
                         <h4 className={classes.ProjName}>Sugarizer</h4>
@@ -100,7 +100,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="container">
+            <div className="container proj-clr">
                 <div className="row">
                     <div className="col-5">
                         <h4 className={classes.ProjName}>My Portfolio</h4>

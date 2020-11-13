@@ -1,16 +1,16 @@
 .ProjectsContainer{
-    margin: 930px auto 100px;
+    /*margin: 58.2rem auto 6.3rem;*/
     position: relative;
     background-color: black;
-    border: 6px solid #008068;
+    border: .4rem solid #008068;
 }
 
 .ProjectTitle {
-    margin: 95px auto 70px;
+    margin: 5.9rem auto 4.4rem;
     width: 100%;
     text-align: center;
     color: white;
-    font: 700 50px sans-serif;
+    font: 700 3.2rem sans-serif;
     text-shadow: 1px 1px 2px black, yellow 1px 0 30px;
 }
 
@@ -23,16 +23,16 @@
     border-radius: .25rem;
 }
 
-/*    when the screen is less than 600px apply these attr.   */
-@media ( max-width: 600px) {
-    .ProjectsContainer{
-        margin: 600px auto 100px;
+/*    when the screen is less than 700px apply these attr.   */
+@media ( max-width: 43.75em ) {
+    .ProjectsContainer {
+        margin: 40em auto 6.3em;
     }
 }
 
-/*    when the screen is greater than 600px apply and less than 700px  */
-@media ( min-width: 800px) {
-    .ProjectsContainer{
-        margin: 800px auto 100px;
+/*    when the screen is greater than 700px */
+@media ( min-width: 43.75em) {
+    .ProjectsContainer {
+        margin: 80em auto 6.3em;
     }
 }
