@@ -1,8 +1,6 @@
 body, html {
     background-color: #0f1a25;
     color: white;
-    /*height: 100%;*/
-    /*width: 100%;*/
 }
 
 div h4 {
@@ -29,6 +27,7 @@ div h4 {
 .top-nav{
     background: linear-gradient(#3aa953, #176758);
     border-bottom: .4rem solid #008068;
+    height: auto;
 }
 
 .bot-nav{
@@ -38,7 +37,7 @@ div h4 {
 
 .container {
     margin: 4rem auto;
-    padding: 0rem 0rem .1rem;
+    padding: 0rem 0.2rem .1rem;
     border-radius: .4rem;
 }
 

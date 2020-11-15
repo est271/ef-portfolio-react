@@ -1,5 +1,5 @@
 .ProjectsContainer{
-    /*margin: 58.2rem auto 6.3rem;*/
+    margin: 100vh auto 6.3rem;
     position: relative;
     background-color: black;
     border: .4rem solid #008068;
@@ -21,18 +21,4 @@
 .ProjImg {
     max-width: 100%;
     border-radius: .25rem;
-}
-
-/*    when the screen is less than 700px apply these attr.   */
-@media ( max-width: 43.75em ) {
-    .ProjectsContainer {
-        margin: 40em auto 6.3em;
-    }
-}
-
-/*    when the screen is greater than 700px */
-@media ( min-width: 43.75em) {
-    .ProjectsContainer {
-        margin: 80em auto 6.3em;
-    }
 }

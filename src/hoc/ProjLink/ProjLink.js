@@ -8,7 +8,6 @@ const ProjLink = (props) => {
         document.querySelector("#projLink").scrollIntoView();
     });
 
-
     return (<Front />);
 };
 
